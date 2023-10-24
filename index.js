@@ -8,7 +8,7 @@ app.get("/", (req, res) =>{
     })
 })
 
-const PORT = 11000
+const PORT = 3000
 
 app.listen(process.env.PORT || PORT, () =>{
     console.log("Estou rodando na porta: " + PORT)
