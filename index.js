@@ -14,7 +14,7 @@ app.get("/", async (req, res) =>{
 })
 
 app.get("/produtos", async (req, res) =>{
-    await res.json([{nome: "TV"},{nome: "Microondas"},{nome: "Computador"}])
+    await res.json([{name: "TV"},{name: "Microondas"},{name: "Computador"}])
 })
 
 const PORT = process.env.PORT ?? 3000
